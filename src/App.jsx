@@ -7,7 +7,7 @@ import { About, Contact, Projects, Homepage } from "./pages";
 const App = () => {
   return (
     <main className='bg-slate-300/20'>
-      <SpeedInsights/>
+      
       <Analytics/>
       <Router>
         <Navbar />
@@ -28,6 +28,7 @@ const App = () => {
           />
         </Routes>
       </Router>
+      <SpeedInsights/>
     </main>
   );
 };
