@@ -1,11 +1,13 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Footer, Navbar } from "./components";
 import { About, Contact, Projects, Homepage } from "./pages";
 
 const App = () => {
   return (
     <main className='bg-slate-300/20'>
+      <SpeedInsights/>
       <Analytics/>
       <Router>
         <Navbar />
