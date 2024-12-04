@@ -10,15 +10,15 @@ const Navbar = () => {
     <header className='header'>
       <nav className="flex text-lg gap-7 font-medium">
       <NavLink to='/'>
-        <img src={logo} alt='logo' className='w-18 h-18 object-contain' />
+        <img src={logo} alt='logo' className='w-[130px] h-18 object-contain my-4' />
       </NavLink>
       <div className="block lg:hidden">
        <button
          onClick={() => setIsOpen(!isOpen)}
-         className="flex items-right px-3 py-2 rounded text-black-500 hover:text-black-400"
+         className="flex items-end mx-32 px-3 py-2 rounded text-black-500 hover:text-black-400"
        >
          <svg
-           className={`fill-current h-3 w-3 ${isOpen ? "hidden" : "block"}`}
+           className={`fill-current h-8 w-8 ${isOpen ? "hidden" : "block"}`}
            viewBox="0 0 20 20"
            xmlns="http://www.w3.org/2000/svg"
          >
