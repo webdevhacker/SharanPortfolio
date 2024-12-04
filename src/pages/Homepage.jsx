@@ -5,13 +5,13 @@ import {
   
   import { CTA, Footer, Contactme } from "../components";
   import { experiences, skills } from "../constants";
-  import { SpeedInsights } from "@vercel/speed-insights/next"
+  
   import "react-vertical-timeline-component/style.min.css";
   
   const Main = () => {
     return (
       <section className='max-container'>
-        <SpeedInsights/>
+        
         <h1 className='head-text'>
           Hello, I'm{" "}
           <span className='blue-gradient_text font-semibold drop-shadow'>
