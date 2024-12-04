@@ -10,7 +10,7 @@ const Navbar = () => {
     <header className='header'>
       <nav className="flex text-lg gap-7 font-medium">
       <NavLink to='/'>
-        <img src={logo} alt='logo' className='w-[130px] h-18 object-contain my-4' />
+        <img src={logo} alt='logo' className='w-[130px] h-18 object-contain max-w-none' />
       </NavLink>
       <div className="block lg:hidden">
        <button
