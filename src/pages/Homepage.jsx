@@ -3,7 +3,7 @@ import {
     VerticalTimelineElement,
   } from "react-vertical-timeline-component";
   
-  import { CTA, Footer } from "../components";
+  import { CTA, Footer, Contactme } from "../components";
   import { experiences, skills } from "../constants";
   
   import "react-vertical-timeline-component/style.min.css";
@@ -107,7 +107,12 @@ import {
   
         <hr className='border-slate-200' />
   
-        <CTA />
+        {/* <CTA /> */}
+        <div>
+          <Contactme />
+        </div>
+        
+
         <div className="flex items-center w-full h-full mt-24 -mb-12">
           <Footer />
         </div>
