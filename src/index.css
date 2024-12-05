@@ -59,7 +59,7 @@ body:has(.card[data-color="green"]:hover) {
   }
 
   .footer-container {
-    @apply flex flex-wrap gap-7 items-center justify-items-stretch;
+    @apply flex flex-wrap gap-7 items-center justify-between;
   }
 
   .info-box {
@@ -101,7 +101,7 @@ body:has(.card[data-color="green"]:hover) {
 }
 
 .block-container .btn-back {
-  position: absolute;
+  position: sticky;
   inset: 0;
   z-index: -1;
   width: inherit;
