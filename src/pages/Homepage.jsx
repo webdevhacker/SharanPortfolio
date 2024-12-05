@@ -25,7 +25,7 @@ import {
             options={{
               strings: ['I bringing websites to life with code!'],
               autoStart: true,
-              loop: false,
+              loop: true,
             }}
           />
         </h1>
