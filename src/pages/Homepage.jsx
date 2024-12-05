@@ -35,7 +35,7 @@ import {
           Efficient Junior Web Developer with a Bachelor of Engineering degree in Computer Science & Engineering and 1+ years of experience in challenging development environments. Excellent communication and organizational abilities with a resourceful approach to solving diverse problems. Deadline-driven and knowledgeable professional with a strong desire to learn and contribute to team success. Successful at improving usability, performance, and functionality by applying skills. Collaborative and hardworking team player with critical thinking skills and a systematic approach.
           </p>
         </div>
-            <div className="bg-gradient-to-r from-[#00c6ff] to-[#f509d6] text-white border border-[#00c6ff] rounded-full hover:border-slate-400 w-48 h-12 mt-12 flex items-center pl-4 ">
+            <div className="bg-gradient-to-r from-[#00c6ff] to-[#f509d6] text-white border rounded-full w-48 h-12 mt-12 flex items-center pl-4 ">
               <Link to='https://google.com'>
                 Download Resume
               </Link>
