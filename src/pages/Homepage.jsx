@@ -5,22 +5,30 @@ import {
   
   import { CTA, Footer, Contactme } from "../components";
   import { experiences, skills } from "../constants";
-  
+  import Typewriter from 'typewriter-effect';
   import "react-vertical-timeline-component/style.min.css";
   
   const Main = () => {
     return (
-      <section className='max-container'>
+      <section className='max-container -mt-16'>
         
-        <h1 className='head-text'>
-          Hello, I'm{" "}
+        <h1 className='text-lg'>
+          Hello, My name is{" "}
           <span className='blue-gradient_text font-semibold drop-shadow'>
             {" "}
             Sharan Kumar
           </span>{" "}
           👋
         </h1>
-  
+        <h1 className="head-text blue-gradient_text">
+          <Typewriter
+            options={{
+              strings: ['I bringing websites to life with code!'],
+              autoStart: true,
+              loop: false,
+            }}
+          />
+        </h1>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
           Efficient Junior Web Developer with a Bachelor of Engineering degree in Computer Science & Engineering and 1+ years of experience in challenging development environments. Excellent communication and organizational abilities with a resourceful approach to solving diverse problems. Deadline-driven and knowledgeable professional with a strong desire to learn and contribute to team success. Successful at improving usability, performance, and functionality by applying skills. Collaborative and hardworking team player with critical thinking skills and a systematic approach.
