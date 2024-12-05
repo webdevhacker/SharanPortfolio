@@ -25,7 +25,9 @@ import {
     threads,
     typescript,
     python,
-    php
+    php,
+    telegram,
+    twitterx
 } from "../assets/icons";
 import { data } from "autoprefixer";
 
@@ -129,19 +131,19 @@ export const experiences = [
 
 export const socialLinks = [
     {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
-    {
-        name: 'GitHub',
-        iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        name: 'Telegram',
+        iconUrl: telegram,
+        link: 'https://t.me/imsharan',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/sharanindian',
+    },
+    {
+        name: 'TwitterX',
+        iconUrl: twitterx,
+        link: 'https://x.com/sharankumar__',
     }
 ];
 

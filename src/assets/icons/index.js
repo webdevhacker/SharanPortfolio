@@ -28,6 +28,8 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import python from './python.svg'
 import php from './php.svg'
+import telegram from './telegram.svg'
+import twitterx from './twitterx.svg'
 
 export {
     css,
@@ -59,5 +61,7 @@ export {
     soundon,
     soundoff,
     python,
-    php
+    php,
+    telegram,
+    twitterx
 }

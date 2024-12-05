@@ -1,15 +1,15 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { logo } from "../assets/images";
-
+import { HashLink as Link } from 'react-router-hash-link';
 // import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header>
-      <nav class="border-gray-200 bg-slate-100 shadow-md">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <nav className="border-gray-200 bg-slate-100 shadow-md">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <NavLink to='/'>
         <img src={logo} alt='logo' className='w-18 h-18 object-contain' />
       </NavLink>
@@ -37,18 +37,18 @@ const Navbar = () => {
     <div className={`w-full md:block md:w-auto ${isOpen ? "block" : "hidden"}`}>
       <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
         <li>
-          <NavLink to='#aboutme' className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+          <Link to='#aboutme' className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
               About Me
-            </NavLink>
-            <NavLink to='#experience' className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+          </Link>
+            <Link to='#mywork' className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
             Experience
-          </NavLink> 
+          </Link> 
           <NavLink to='/projects' className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
             Project
           </NavLink>
-          <NavLink to='#contact' className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+          <Link to='#contact' className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
             Contact
-          </NavLink>
+          </Link>
         </li>
         
       </ul>
