@@ -8,6 +8,9 @@ import {
   import Typewriter from 'typewriter-effect';
   import "react-vertical-timeline-component/style.min.css";
   import { Link } from "react-router-dom";
+import Resume from '../../doc/isharankumar_cv.pdf'
+
+
   const Main = () => {
     return (
       <section className='max-container -mt-16'>
@@ -36,7 +39,7 @@ import {
           </p>
         </div>
             <div className="bg-gradient-to-r from-[#00c6ff] to-[#f509d6] text-white border rounded-full w-48 h-12 mt-12 flex items-center pl-4 ">
-              <Link to='https://google.com'>
+              <Link to={Resume} target="_blank">
                 Download Resume
               </Link>
             </div>

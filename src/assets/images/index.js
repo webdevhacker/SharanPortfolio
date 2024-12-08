@@ -7,6 +7,11 @@ import logo from './sharanlogo.png'
 import anideatech from './anideatech.png'
 import vibhaa from './vibhaa.png'
 import datalore from './datalore.jpg'
+import Img1 from './img1.jpg'
+import Img2 from './img2.jpg'
+import Img3 from './img3.jpg'
+import Img4 from './img4.jpg'
+import Img5 from './img5.jpg' 
 
 export {
     hero,
@@ -17,5 +22,6 @@ export {
     logo,
     anideatech,
     vibhaa,
-    datalore
+    datalore,
+    Img1, Img2, Img3, Img4, Img5
 }
