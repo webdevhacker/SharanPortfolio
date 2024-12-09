@@ -85,7 +85,7 @@ export const experiences = [
         company_name: "An Idea Tech",
         icon: anideatech,
         iconBg: "#ffffff",
-        date: "July 2023 - April 2024",
+        date: "July 2023 - Present",
         points: [
             "Used WordPress, HTML and Node.js to build strong and engaging web applications.",
             "Helped to create and deliver digital solutions by sharing ideas and offering technical skills for different client’s projects.",
