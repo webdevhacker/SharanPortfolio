@@ -37,16 +37,16 @@ const Navbar = () => {
     <div className={`w-full md:block md:w-auto ${isOpen ? "block" : "hidden"}`}>
       <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
         <li>
-          <Link to='#aboutme' className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+          <Link to='/#aboutme' className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
               About Me
           </Link>
-            <Link to='#mywork' className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+            <Link to='/#mywork' className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
             Experience
           </Link> 
           <NavLink to='/projects' className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
             Project
           </NavLink>
-          <Link to='#contact' className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
+          <Link to='/#contact' className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4">
             Contact
           </Link>
         </li>

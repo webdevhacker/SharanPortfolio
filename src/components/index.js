@@ -5,8 +5,8 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import HomeInfo from "./HomeInfo";
 import Contactme from "./Contactme";
-import ProjectImg from "./ProjectImg"
-
+// import ProjectImg from "./ProjectImg"
+// import ProCarousel from './ProCarousel'
 export {
     CTA,
     Alert,
@@ -15,5 +15,6 @@ export {
     Footer,
     HomeInfo,
     Contactme,
-    ProjectImg
+    // ProjectImg,
+    // ProCarousel
 }
