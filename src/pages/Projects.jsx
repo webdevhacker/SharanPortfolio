@@ -21,7 +21,7 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        This blog application is built with the help of python django framework. It is simple application to understand the functionality and understanding of Django framework foor web development. Its vision is to provide high secured Contant Management System(CMS).
+        This blog application is built with the help of python django framework. It is simple application to understand the functionality of Django framework for web development. Its vision is to provide high secured Contant Management System(CMS).
       </p><br />
       <ul className="subheading-text">
         Technology used:
