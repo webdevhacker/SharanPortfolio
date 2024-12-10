@@ -35,7 +35,7 @@ import Resume from '../../doc/isharankumar_cv.pdf'
         </h1>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-          Efficient Junior Web Developer with a Bachelor of Engineering degree in Computer Science & Engineering and 1+ years of experience in challenging development environments. Excellent communication and organizational abilities with a resourceful approach to solving diverse problems. Deadline-driven and knowledgeable professional with a strong desire to learn and contribute to team success. Successful at improving usability, performance, and functionality by applying skills. Collaborative and hardworking team player with critical thinking skills and a systematic approach.
+          Efficient Web Developer with a Bachelor of Engineering degree in Computer Science & Engineering and 1+ years of experience in challenging development environments. Excellent communication and organizational abilities with a resourceful approach to solving diverse problems. Deadline-driven and knowledgeable professional with a strong desire to learn and contribute to team success. Successful at improving usability, performance, and functionality by applying skills. Collaborative and hardworking team player with critical thinking skills and a systematic approach.
           </p>
         </div>
             <div className="bg-gradient-to-r from-[#00c6ff] to-[#f509d6] text-white border rounded-full w-48 h-12 mt-12 flex items-center pl-4 ">
