@@ -63,7 +63,7 @@ import Resume from '../../doc/isharankumar_cv.pdf'
         </div>
   
         <div id="mywork" className='py-16'>
-          <h3 className='subhead-text'>Work Experience.</h3>
+          <h3 className='subhead-text'>Work Experience</h3>
           <div className='mt-5 flex flex-col gap-3 text-slate-500'>
             <p>
               I've worked with all sorts of companies, leveling up my skills and
