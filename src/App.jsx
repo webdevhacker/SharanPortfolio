@@ -3,11 +3,11 @@ import { Analytics } from "@vercel/analytics/react"
 
 import { Footer, Navbar } from "./components";
 import { About, Contact, Projects, Homepage } from "./pages";
-
+import { SpeedInsights } from "@vercel/speed-insights/react";
 const App = () => {
   return (
     <main className='bg-slate-300/20'>
-      
+      <SpeedInsights />
       <Analytics/>
       <Router>
         <Navbar />
