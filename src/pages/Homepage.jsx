@@ -3,11 +3,11 @@ import {
     VerticalTimelineElement,
   } from "react-vertical-timeline-component";
   
-  import { CTA, Footer, Contactme } from "../components";
-  import { experiences, skills } from "../constants";
-  import Typewriter from 'typewriter-effect';
-  import "react-vertical-timeline-component/style.min.css";
-  import { Link } from "react-router-dom";
+import { CTA, Footer, Contactme } from "../components";
+import { experiences, skills } from "../constants";
+import Typewriter from 'typewriter-effect';
+import "react-vertical-timeline-component/style.min.css";
+import { Link } from "react-router-dom";
 import Resume from '../../doc/isharankumar_cv.pdf'
 
 
