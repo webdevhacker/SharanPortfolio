@@ -5,7 +5,7 @@ const CTA = () => {
     <section className='cta'>
       <p className='cta-text'>
         Have anything in mind? <br className='sm:block hidden' />
-      </p><br></br>
+      </p>
       <p className="cta-subtext">
       My inbox is always ready to help you regarding any questions related to web development.
       </p>
