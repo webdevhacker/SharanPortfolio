@@ -30,6 +30,7 @@ import python from './python.svg'
 import php from './php.svg'
 import telegram from './telegram.svg'
 import twitterx from './twitterx.svg'
+import flag from './flag.png'
 
 export {
     css,
@@ -63,5 +64,6 @@ export {
     python,
     php,
     telegram,
-    twitterx
+    twitterx,
+    flag
 }

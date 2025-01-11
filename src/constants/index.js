@@ -27,7 +27,8 @@ import {
     python,
     php,
     telegram,
-    twitterx
+    twitterx,
+    flag,
 } from "../assets/icons";
 import { data } from "autoprefixer";
 
@@ -191,3 +192,10 @@ export const projects = [
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];
+
+export const indianFlag =[
+    {
+        name: 'India',
+        iconUrl: flag,
+    }
+]
