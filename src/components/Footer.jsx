@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 import { indianFlag, socialLinks } from "../constants";
 
+import UserIP from "./UserIp";
+
 const Footer = () => {
   return (
     <footer className='footer font-poppins'>
@@ -34,6 +36,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
+      <UserIP />
     </footer>
   );
 };
