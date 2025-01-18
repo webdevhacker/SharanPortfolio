@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import { indianFlag, socialLinks } from "../constants";
 
-import UserIP from "./UserIp";
+import UserIP from "./UserIP"
 
 const Footer = () => {
   return (
