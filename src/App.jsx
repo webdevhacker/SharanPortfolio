@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { Footer, Navbar } from "./components";
 import { About, Contact, Projects, Homepage } from "./pages";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+// var cors = require('cors')
 const App = () => {
   return (
     <main className='bg-slate-300/20'>

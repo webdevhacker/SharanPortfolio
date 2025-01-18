@@ -27,7 +27,7 @@ useEffect(() => {
 
   return (
     <div>
-      <h1>Your IP Address is: {ipDetails.ip} ({ipDetails.city}, {ipDetails.region}, {ipDetails.country_name})</h1>
+      <p className='text-red-500'>Your IP Address: {ipDetails.ip} ({ipDetails.city}, {ipDetails.region}, {ipDetails.country_name})</p>
     </div>
   );
 };
