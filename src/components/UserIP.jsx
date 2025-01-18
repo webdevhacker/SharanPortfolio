@@ -26,8 +26,8 @@ useEffect(() => {
 //   }, []);
 
   return (
-    <div>
-      <p className='text-red-500'>Your IP Address: {ipDetails.ip} ({ipDetails.city}, {ipDetails.region}, {ipDetails.country_name})</p>
+    <div className='bg-red-600 flex items-center align-middle'>
+      <p className=' text-white font-light'>Your IP Address: {ipDetails.ip} ({ipDetails.city}, {ipDetails.region}, {ipDetails.country_name})</p>
     </div>
   );
 };
