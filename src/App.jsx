@@ -2,8 +2,9 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react"
 
 import { Footer, Navbar } from "./components";
-import { About, Contact, Projects, Homepage } from "./pages";
+import { About, Contact, Projects, Homepage, UserIPinfo } from "./pages";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+
 // var cors = require('cors')
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
                   <Route path='/about' element={<About />} />
                   <Route path='/projects' element={<Projects />} />
                   <Route path='/contact' element={<Contact />} />
+                  <Route path='/useripinfo' element={<UserIPinfo />} />
                 </Routes>
                 <Footer />
               </>

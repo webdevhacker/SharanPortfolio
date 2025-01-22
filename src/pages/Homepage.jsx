@@ -130,7 +130,6 @@ import Resume from '../../doc/isharankumar_cv.pdf'
         {/* <div>
           <Contactme />
         </div> */}
-        
 
         <div className="flex items-center w-full h-full mt-24 -mb-12">
           <Footer />
