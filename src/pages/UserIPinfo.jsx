@@ -14,7 +14,7 @@ useEffect(() => {
     return (
             <div className="bg-white max-w-4xl items-center align-middle shadow overflow-hidden sm:rounded-lg md:mx-auto mt-14 mb-28">
     <div className="px-4 py-5 sm:px-6">
-        <h3 className="text-lg leading-6 font-medium text-gray-900">
+        <h3 className="text-lg leading-6 font-medium text-red-500">
             User Informations
         </h3>
         <p className="mt-1 max-w-2xl text-sm text-gray-500">
@@ -27,7 +27,7 @@ useEffect(() => {
                 <dt className="text-sm font-medium text-gray-500">
                     IP Address
                 </dt>
-                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
                     {ipDetails.ip}
                 </dd>
             </div>
@@ -35,7 +35,7 @@ useEffect(() => {
                 <dt className="text-sm font-medium text-gray-500">
                     City
                 </dt>
-                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
                     {ipDetails.city}
                 </dd>
             </div>
@@ -43,7 +43,7 @@ useEffect(() => {
                 <dt className="text-sm font-medium text-gray-500">
                     Region
                 </dt>
-                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
                 {ipDetails.region}
                 </dd>
             </div>
@@ -51,7 +51,7 @@ useEffect(() => {
                 <dt className="text-sm font-medium text-gray-500">
                     Country with code
                 </dt>
-                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
                     {ipDetails.country_name}, {ipDetails.country_calling_code}
                 </dd>
             </div>
@@ -59,7 +59,7 @@ useEffect(() => {
                 <dt className="text-sm font-medium text-gray-500">
                     Postal Code
                 </dt>
-                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
                     {ipDetails.postal}
                 </dd>
             </div>
@@ -67,7 +67,7 @@ useEffect(() => {
                 <dt className="text-sm font-medium text-gray-500">
                     Time Zone
                 </dt>
-                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
                     {ipDetails.timezone}
                 </dd>
             </div>
@@ -75,7 +75,7 @@ useEffect(() => {
                 <dt className="text-sm font-medium text-gray-500">
                     Latitude
                 </dt>
-                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
                     {ipDetails.latitude}
                 </dd>
             </div>
@@ -83,7 +83,7 @@ useEffect(() => {
                 <dt className="text-sm font-medium text-gray-500">
                     Longitude
                 </dt>
-                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
                     {ipDetails.longitude}
                 </dd>
             </div>
@@ -92,7 +92,7 @@ useEffect(() => {
                 <dt className="text-sm font-medium text-gray-500">
                     ASN
                 </dt>
-                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
                     {ipDetails.asn}
                 </dd>
             </div>
@@ -100,7 +100,7 @@ useEffect(() => {
                 <dt className="text-sm font-medium text-gray-500">
                     Internet Service Provider(ISP)
                 </dt>
-                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
                     {ipDetails.org}
                 </dd>
             </div>
