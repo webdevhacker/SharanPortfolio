@@ -52,7 +52,7 @@ useEffect(() => {
                     Country with code
                 </dt>
                 <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
-                    {ipDetails.country_name}, {ipDetails.country_calling_code}
+                    {ipDetails.country_name} <p className='text-gray-900'>,</p> {ipDetails.country_calling_code}
                 </dd>
             </div>
             <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -76,7 +76,7 @@ useEffect(() => {
                     Latitude/ Longitude
                 </dt>
                 <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
-                    {ipDetails.latitude}/ {ipDetails.longitude}
+                    {ipDetails.latitude}<p className='text-gray-900'>/</p> {ipDetails.longitude}
                 </dd>
             </div>
             {/* <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
