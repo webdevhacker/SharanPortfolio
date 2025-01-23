@@ -1,25 +1,71 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
-const UserIPinfo = ({ip,location,timezone,isp}) => {
-        return (
-            <div className='grid text-center gap-4 md:grid-cols-4 bg-white mx-auto w-4/5 md:w-10/12 lg:w-4/5 p-4 md:p-8 md:divide-x-2 2xl:w-1/2 rounded-xl shadow-lg absolute bottom-0 right-1/2 translate-x-1/2 translate-y-1/2 z-[1000]'>
-                <div className='grid px-3 md:gap-3 gap-2'>
-                    <span className='text-Dark-Gray font-medium text-xs md:text-sm uppercase'>IP Address</span>
-                    <span className='font-bold text-lg'>{ip}</span>
-                </div>
-                <div className='grid px-3 md:gap-3 gap-2'>
-                    <span className='text-Dark-Gray font-medium text-xs md:text-sm uppercase'>Location</span>
-                    <span className='font-bold text-lg'>{location}</span>
-                </div>
-                <div className='grid px-3 md:gap-3 gap-2'>
-                    <span className='text-Dark-Gray font-medium text-xs md:text-sm uppercase'>Timezone</span>
-                    <span className='font-bold text-lg'>{timezone}</span>
-                </div>
-                <div className='grid px-3 md:gap-3 gap-2'>
-                    <span className='text-Dark-Gray font-medium text-xs md:text-sm uppercase'>ISP</span>
-                    <span className='font-bold text-lg'>{isp}</span>
-                </div>
+const UserIPinfo = () => {
+//   const [ip, setIp] = useState('');
+const [ipDetails, setIpDetails] = useState([]);
+useEffect(() => { 
+    axios.get('https://ipapi.co/json/').then((res) => { 
+        setIpDetails(res.data); 
+        // setLat(res.data.latitude); 
+        // setLon(res.data.longitude); 
+    }); 
+}, [])
+    return (
+            <div className="bg-white max-w-2xl items-center align-middle shadow overflow-hidden sm:rounded-lg mt-28 mb-28 mx-28">
+    <div className="px-4 py-5 sm:px-6">
+        <h3 className="text-lg leading-6 font-medium text-gray-900">
+            User Informations
+        </h3>
+        {/* <p className="mt-1 max-w-2xl text-sm text-gray-500">
+            Details and informations about user.
+        </p> */}
+    </div>
+    <div className="border-t border-gray-200">
+        <dl>
+            <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                <dt className="text-sm font-medium text-gray-500">
+                    IP Address
+                </dt>
+                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                    {ipDetails.ip}
+                </dd>
             </div>
+            <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                <dt className="text-sm font-medium text-gray-500">
+                    City
+                </dt>
+                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                    {ipDetails.city}
+                </dd>
+            </div>
+            <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                <dt className="text-sm font-medium text-gray-500">
+                    Region
+                </dt>
+                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                {ipDetails.region}
+                </dd>
+            </div>
+            <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                <dt className="text-sm font-medium text-gray-500">
+                    Country
+                </dt>
+                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                    {ipDetails.country_name}
+                </dd>
+            </div>
+            <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                <dt className="text-sm font-medium text-gray-500">
+                    Internet Service Provider
+                </dt>
+                <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+                    {ipDetails.isp}
+                </dd>
+            </div>
+        </dl>
+    </div>
+</div>
         )
     }
 
