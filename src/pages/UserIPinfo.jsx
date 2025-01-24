@@ -44,7 +44,7 @@ useEffect(() => {
                     Region
                 </dt>
                 <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
-                {ipDetails.region}
+                    {ipDetails.region} ({ipDetails.region_code})
                 </dd>
             </div>
             <div className="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -71,6 +71,25 @@ useEffect(() => {
                     {ipDetails.timezone}
                 </dd>
             </div>
+
+            <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                <dt className="text-sm font-medium text-gray-500">
+                    Currency
+                </dt>
+                <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
+                    {ipDetails.currency} ({ipDetails.currency_name})
+                </dd>
+            </div>
+
+            <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                <dt className="text-sm font-medium text-gray-500">
+                    Languages
+                </dt>
+                <dd className="mt-1 text-sm text-red-500 sm:mt-0 sm:col-span-2">
+                    {ipDetails.languages}
+                </dd>
+            </div>
+
             <div className="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                 <dt className="text-sm font-medium text-gray-500">
                     Latitude
