@@ -95,7 +95,7 @@ export const experiences = [
     },
     {
         title: "Jr. Web Developer",
-        company_name: "Vibhaa Tech Innovations pvt ltd",
+        company_name: "Vibhaa Tech Innovations Pvt. Ltd",
         icon: vibhaa,
         iconBg: "#ffffff",
         date: "Aug 2022 - Nov 2022",
@@ -108,7 +108,7 @@ export const experiences = [
     },
     {
         title: "Software Engineer Intern",
-        company_name: "Vibhaa Tech Innovations pvt ltd",
+        company_name: "Vibhaa Tech Innovations Pvt. Ltd",
         icon: vibhaa,
         iconBg: "#ffffff",
         date: "May 2022 - Aug 2022",
